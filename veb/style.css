@@ -1,0 +1,58 @@
+h2
+{
+    color:mediumorchid;
+    margin: 0;
+}
+body
+{
+    background-color: plum;
+    margin: 0;
+}
+header
+{
+    background-color: lightpink;
+    margin: 0;
+}
+main
+{
+    background-color: lightpink;
+    margin: 0;
+}
+footer
+{
+    background-color: mediumorchid;
+}
+h1, h2, h3, h4, h4, h6, ul
+{
+    margin: o;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+footer
+{
+    border-top: solid 3px purple;
+}
+h1, h2, h3, h4, h5, h6, main, img
+{
+    padding: 10px;
+}
+button
+{
+    color: #662f4d;
+    background: transparent;
+    border: 2px solid #69184e;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
