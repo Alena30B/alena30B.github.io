@@ -1,6 +1,6 @@
 h2
 {
-    color:rgb(187, 66, 218);
+    color:rgb(151, 41, 179);
     margin: 0;
 }
 body
@@ -28,6 +28,7 @@ main
 footer
 {
     background-color: rgb(223, 141, 243);
+    border-top: solid 3px rgb(39, 10, 30);
     margin: 0;
     padding: 5px;
     display: flex;
@@ -61,9 +62,9 @@ button
 {
     color: #662f4d;
     background: transparent;
-    border: 2px solid #69184e;
+    border: 3px solid #69184e;
     position: relative;
-    font-size: 14px;
+    font-size: 45px;
     letter-spacing: .3em;
     font-family: 'Montserrat', sans-serif;
     padding: 17px 34px 17px 39px;
@@ -72,5 +73,12 @@ button
 }
 html
 {
-    height: 100;
+    height: 100%;
+}
+h1, h2
+{
+    font-family: 'American Typewriter', serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(138, 19, 132);
 }
