@@ -46,6 +46,13 @@ a
 footer
 {
     border-top: solid 3px purple;
+    padding: 5px 15px;
+    margin: 0;
+    background-color: rgb(218, 173, 200);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 h1, h2, h3, h4, h5, h6, main, img
 {
