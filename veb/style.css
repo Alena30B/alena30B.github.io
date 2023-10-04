@@ -1,36 +1,39 @@
 h2
 {
-    color:rgb(234, 149, 255);
+    color:rgb(187, 66, 218);
     margin: 0;
 }
 body
 {
     margin: 0;
     background-color: rgb(243, 186, 243);
-    display: flex;
     height: 100%;
     padding: 5px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 header
 {
+    margin: 5px;
+    padding: 10px;
     background-color: rgb(253, 204, 212);
-    margin: 0;
 }
 main
 {
     background-color: rgb(253, 204, 212);
-    margin: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 5px;
+    padding: 10px;
 }
 footer
 {
     background-color: rgb(223, 141, 243);
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 h1, h2, h3, h4, h4, h6, ul
 {
@@ -44,21 +47,11 @@ ul
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-left: 30px;
 }
 a
 {
     text-decoration: none;
-}
-footer
-{
-    border-top: solid 3px purple;
-    padding: 5px 15px;
-    margin: 0;
-    background-color: rgb(218, 173, 200);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 h1, h2, h3, h4, h5, h6, main, img
 {
