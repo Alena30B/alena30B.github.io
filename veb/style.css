@@ -15,14 +15,14 @@ body
 }
 header
 {
-    margin: 0;
+    margin: 5px;
     padding: 10px;
     background-color: rgb(253, 204, 212);
 }
 main
 {
     background-color: rgb(253, 204, 212);
-    margin: 0;
+    margin: 5px;
     padding: 10px;
 }
 footer
@@ -96,12 +96,12 @@ p
     font-size: 40px;
     text-align: center;
     font-weight: 400;
-    margin: 0;
+    margin: 10px 0;
 }
 article > div > div > p
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 40px;
-    margin: 0;
+    margin: 10px 0;
 }
