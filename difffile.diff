@@ -1,0 +1,170 @@
+diff --git a/veb/competechion.html b/veb/competechion.html
+index 642c474..07c0731 100644
+--- a/veb/competechion.html
++++ b/veb/competechion.html
+@@ -3,6 +3,7 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <link rel="stylesheet" href="style.css">
+     <title>Задание 1</title>
+ </head>
+ <body>
+diff --git a/veb/photo.html b/veb/photo.html
+index 0d1e8bf..74036dc 100644
+--- a/veb/photo.html
++++ b/veb/photo.html
+@@ -3,6 +3,7 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <link rel="stylesheet" href="style.css">
+     <title>Задание 1</title>
+ </head>
+ <body>
+diff --git a/veb/rezum.html b/veb/rezum.html
+index 4e8f4b7..7180097 100644
+--- a/veb/rezum.html
++++ b/veb/rezum.html
+@@ -3,6 +3,7 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <link rel="stylesheet" href="style.css">
+     <title>Задание 1</title>
+ </head>
+ <body>
+diff --git a/veb/style.css b/veb/style.css
+index 48a956a..5e3bc01 100644
+--- a/veb/style.css
++++ b/veb/style.css
+@@ -1,58 +1,108 @@
+ h2
+ {
+-    color:mediumorchid;
++    color:rgb(151, 41, 179);
+     margin: 0;
+ }
+ body
+ {
+-    background-color: plum;
+     margin: 0;
++    background-color: rgb(243, 186, 243);
++    height: 100%;
++    padding: 5px;
++    display: flex;
++    flex-direction: column;
++    justify-content: space-between;
+ }
+ header
+ {
+-    background-color: lightpink;
+-    margin: 0;
++    margin: 5px;
++    padding: 10px;
++    background-color: rgb(253, 204, 212);
+ }
+ main
+ {
+-    background-color: lightpink;
+-    margin: 0;
++    background-color: rgb(253, 204, 212);
++    margin: 5px;
++    padding: 10px;
+ }
+ footer
+ {
+-    background-color: mediumorchid;
+-}
+-h1, h2, h3, h4, h4, h6, ul
+-{
+-    margin: o;
++    background-color: rgb(223, 141, 243);
++    border-top: solid 3px rgb(39, 10, 30);
++    margin: 0;
++    padding: 5px;
++    display: flex;
++    flex-direction: row;
++    justify-content: space-between;
++    align-items: center;
+ }
+ ul
+ {
+     list-style: none;
++    display: flex;
++    flex-direction: row;
++    flex-wrap: wrap;
++    justify-content: space-around;
++    align-items: center;
++    margin-left: 30px;
+ }
+-a
+-{
+-    text-decoration: none;
+-}
+-footer
++ul > li > a
+ {
+-    border-top: solid 3px purple;
++    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
++    font-size: 30px;
++    font-weight: bold;
++    color: indigo;
+ }
+-h1, h2, h3, h4, h5, h6, main, img
++a
+ {
+-    padding: 10px;
++    text-decoration: none;
+ }
+ button
+ {
+     color: #662f4d;
+     background: transparent;
+-    border: 2px solid #69184e;
++    border: 3px solid #69184e;
+     position: relative;
+-    font-size: 14px;
++    font-size: 20px;
+     letter-spacing: .3em;
+     font-family: 'Montserrat', sans-serif;
+     padding: 17px 34px 17px 39px;
+     transition: .2s ease-in-out;
+     cursor: pointer;
+ }
++html
++{
++    height: 100%;
++}
++h1, h2
++{
++    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
++    font-size: 35px;
++    font-weight: 600;
++    color: rgb(138, 19, 132);
++    margin: 10px 10px 10px 20 px;
++}
++main
++{
++    text-align: center;
++    display: flex;
++    flex-direction: column;
++    align-items: center;
++    justify-content: center;
++}
++p
++{
++    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
++    font-size: 40px;
++    text-align: center;
++    font-weight: 400;
++    margin: 10px 0;
++}
++article > div > div > p
++{
++    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
++    font-weight: 400;
++    font-size: 40px;
++    margin: 10px 0;
++}
+ 
