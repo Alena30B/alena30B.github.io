@@ -120,16 +120,6 @@ table
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.wrapper
-{
-    width: 85%;
-    margin: 0 auto;
-    background-color: rgb(205, 148, 237, 0.2);
-    padding: 30px;
-
-}
-
 .main
 {
     display: flex;
