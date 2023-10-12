@@ -1,7 +1,7 @@
 h2
 {
     color:rgb(151, 41, 179);
-    margin: 0;
+    margin: 5px;
 }
 body
 {
@@ -45,7 +45,7 @@ ul
 }
 ul > li > a
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Bradley Hand', cursive;
     font-size: 30px;
     font-weight: bold;
     color: indigo;
@@ -73,7 +73,7 @@ html
 }
 h1, h2
 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Bradley Hand', cursive;
     font-size: 35px;
     font-weight: 600;
     color: rgb(138, 19, 132);
@@ -81,7 +81,7 @@ h1, h2
 }
 p
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Bradley Hand', cursive;
     font-size: 30px;
     text-align: center;
     font-weight: 400;
@@ -102,6 +102,7 @@ article > div > p
     font-weight: 400;
     font-size: 30px;
     margin: 10px 0;
+    color: rgb(39, 10, 30);
 }
 article > div > img
 {
