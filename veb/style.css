@@ -6,7 +6,7 @@ h2
 body
 {
     margin: 0;
-    background-color: rgb(243, 186, 243);
+    background-color: rgb(253, 186, 220, 0.747);
     height: 100%;
     padding: 0px 5px;
     display: flex;
@@ -17,7 +17,7 @@ header
 {
     margin: 5px;
     padding: 10px;
-    background-color: rgb(253, 204, 212);
+    background-color: rgba(253, 186, 220, 0.747);
 }
 main
 {
@@ -130,7 +130,7 @@ table
 {
     width: 85%;
     margin: 0 auto;
-    background-color: rgba(224, 178, 250, 0.2);
+    background-color: rgba(187, 147, 211, 0.658);
     padding: 30px;
 
 }
