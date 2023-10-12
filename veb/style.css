@@ -17,7 +17,7 @@ header
 {
     margin: 5px;
     padding: 10px;
-    background-color: rgba(253, 186, 220, 0.747);
+    background-color: rgb(253, 204, 212);
 }
 main
 {
@@ -130,7 +130,7 @@ table
 {
     width: 85%;
     margin: 0 auto;
-    background-color: rgba(187, 147, 211, 0.658);
+    background-color: rgba(253, 186, 220, 0.747);
     padding: 30px;
 
 }
