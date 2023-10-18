@@ -72,27 +72,45 @@
             <input type="checkbox" name="chb4" id="chb4">Иначе</label>
             <br>
         </div>
-        <div>
-            <label for="email">Введите адрес почты</label>
-            <input type="email" name="email" id="email">
-         </div>
-        <div>
-            <label for="tel">Введите номер телефона</label>
-            <input type="tel" name="tel" id="tel">
+        <div style="display: flex;">
+            <div style="flex: 1;">
+                <br>
+                <label for="example">Ваше Имя</label>
+                
+                <div>
+                    <br>
+                    <label for="email">Адрес почты</label>
+                </div>
+                <br>
+                <div>
+                    <label for="tel">Номер телефона</label>
+                </div>
+                <br>
+            </div>
+            <div style="flex: 1;">
+                <br>
+                <input type="text" name="example" id="example">
+                <div>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <div>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+            </div>
         </div>
-            <div>Ваш вопрос:</div>
+        <br>
+        <div>Ваш вопрос:</div>
         <div>
-            <textarea cols="20"></textarea>
-        </div>
-        <div>
-            <form action="" method="get">
-                <input type="submit" value="отправить вопрос">
-                <input type="reset" value="очистить">
-            </form>
-        </div>
-    </div>
+        <textarea cols="20"></textarea>
+        </div> 
+        <form action="" method="get">
+        <input type="submit" value="отправить вопрос">
+        <input type="reset" value="очистить">
+        </form>
+</div>  
     </main>
-   
     <footer>
        <div class="wrapper footer-flex">
         <h6>2071,Буторова Алёна</h6>
