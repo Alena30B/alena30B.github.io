@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head onclick="setWidht()">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Задание 1</title>
+    <script>
+        function setWidht()
+        {
+            document.getElementById("foto_1").style.width = "100px";
+        }
+        function setWidht_2()
+        {
+            document.getElementById("foto_1").style.width = "200px";
+        }
+        function setWidht_3()
+        {
+            document.getElementById("foto_1").style.width = "300px";
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -30,10 +44,13 @@
         <div class="wrapper main">
         <h1>Фото</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid recusandae dolorem rerum exercitationem. Tenetur, beatae optio ab provident, similique iste tempora libero nemo vitae unde eius repudiandae eaque, nesciunt quasi!</p>
+        <div><button onclick="setWidht()">100px</button></div>
+        <div><button onclick="setWidht_2()">200px</button></div>
+        <div><button onclick="setWidht_3()">300px</button></div>
     <article>
             <div>
                 <p>Сьюзя первый деть</p>
-                <img src="imege/syzan.jpg" alt="Сьюзя" width="200">
+                <img src="imege/syzan.jpg" alt="Сьюзя" width="200" id = "foto_1">
             </div>
             <div>
                 <p>Соня второй деть</p>
