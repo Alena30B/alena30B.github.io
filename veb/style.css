@@ -170,3 +170,13 @@ table
     width: 300px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.664);
 }
+input
+{
+    border-radius: 5px;
+    background-color: hsl(290, 100%, 72%);
+}
+select
+{
+    border-radius: 5px;
+    background-color: rgb(290, 100%, 72%);
+}
