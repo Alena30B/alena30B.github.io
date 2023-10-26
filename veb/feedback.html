@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Задание 1</title>
     <script>
+        function setColor()
+        {
+            document.getElementById("color_main").style.backgroundColor="violet";
+        }
         //alert("head");
         //console.log("head");
         //document.write("head");
-        function setColor()
-        {
-            document.getElementByld("color_set").sytle.backgroundColor="violet";
-        }
     </script>
 </head>
 <body>
@@ -39,7 +39,6 @@
             </ul>
         </nav>
         </div>
-        <button type="button" onclick="setColor()"></button>
     </header>
     <main_form>
         <div class="form_flex">
@@ -137,6 +136,7 @@
        </div>
     </footer>
     <script type="text/javascript" src="script.js"></script>
+    <button onclick="setColor()">Сменить цвет</button>
     <script>
         //alert("head");
         //console.log("head");
