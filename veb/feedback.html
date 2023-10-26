@@ -8,7 +8,7 @@
     <script>
         function setColor()
         {
-            document.getElementById("color_main").style.backgroundColor="violet";
+            document.getElementById("color_man_form").style.backgroundColor="violet";
         }
         //alert("head");
         //console.log("head");
@@ -40,7 +40,7 @@
         </nav>
         </div>
     </header>
-    <main_form>
+    <main_form id="color_main" onclick = "setColor()">
         <div class="form_flex">
         <h1>Обратная связь</h1>
         <div>
@@ -124,6 +124,7 @@
         <input type="reset" value="Очистить">
         </form>
 </div>  
+    <button onclick="setColor()">Сменить цвет</button>
     </main>
     <footer>
        <div class="wrapper footer-flex">
@@ -136,7 +137,6 @@
        </div>
     </footer>
     <script type="text/javascript" src="script.js"></script>
-    <button onclick="setColor()">Сменить цвет</button>
     <script>
         //alert("head");
         //console.log("head");
