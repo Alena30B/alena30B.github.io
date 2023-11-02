@@ -16,6 +16,7 @@
     </script>
 </head>
 <body>
+    <h3 id = "textFromForm">текст</h3>
     <script>
         //alert("head");
         //onsole.log("head");
@@ -131,14 +132,17 @@
             let a = document.forms[0].area.value;
             let b = document.getElementById("area").value;
             console.log("Все работает" + a +", b = "+b);
+            let str = "Все работает" + a + "<br>";
             let com_tion = document.forms[0].com_tion;
             for(i = 0; i<com_tion.length; i++)
             {
                 if(com_tion[i].checked)
                 {
                     console.log(com_tion[i].value);
+                    str = str + com_tion[i].value;
                 }
             }
+            document.getElementById("textFromForm").innerHTML = str;
         }
     </script>
     <button onclick="setColor()">Сменить цвет</button>
