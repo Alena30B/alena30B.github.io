@@ -123,12 +123,14 @@
         <input type="submit" value="Отправить вопрос">
         <input type="reset" value="Очистить">
         </form>
-        <button onclick="examplTestForm()">отправить данные</button>
 </div>
+<button onclick="examplTestForm()">отправить данные</button>
     <script>
         function examplTestForm()
         {
-            console.log("Все работает");
+            let a = document.forms[0].login.value;
+            let b = document.getElementById("login").value;
+            console.log("Все работает" + a +", b = "+b);
         }
     </script>
     <button onclick="setColor()">Сменить цвет</button>
