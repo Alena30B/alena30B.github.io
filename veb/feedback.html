@@ -128,9 +128,17 @@
     <script>
         function examplTestForm()
         {
-            let a = document.forms[0].login.value;
+            let a = document.forms[0].area.value;
             let b = document.getElementById("area").value;
             console.log("Все работает" + a +", b = "+b);
+            let com_tion = document.forms[0].com_tion;
+            for(i = 0; i<com_tion.length; i++)
+            {
+                if(com_tion[i].checked)
+                {
+                    console.log(com_tion[i].value);
+                }
+            }
         }
     </script>
     <button onclick="setColor()">Сменить цвет</button>
