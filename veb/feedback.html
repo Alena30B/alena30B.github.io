@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" onclick="setColor()">
+<head onclick="setColor()">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -8,23 +8,22 @@
     <script>
         function setColor()
         {
-            //document.getElementById("color_man_form").style.backgroundColor="violet";
+            document.getElementById("color_set").style.backgroundColor="violet";
         }
         //alert("head");
         //console.log("head");
         //document.write("head");
     </script>
 </head>
-<body>
-    <h3 id = "textFromForm">текст</h3>
+<body onclick="setColor()">
     <script>
         //alert("head");
         //onsole.log("head");
         //document.write("head");
     </script>
-    <header>
+    <header id = "color_set" onclick="setColor()">
         <div class="wrapper">
-        <h2 id="title_h2">
+        <h2 id="color_set">
             Веб-технологии
         </h2>
         <div class="header-img">
@@ -41,7 +40,8 @@
         </nav>
         </div>
     </header>
-    <main_form id="color_main" onclick = "setColor()">
+    <main_form>
+        <h3 id = "textFromForm">Текст</h3>
         <form action="" method="get">
         <div class="form_flex">
         <h1>Обратная связь</h1>
@@ -125,8 +125,9 @@
         <input type="submit" value="Отправить вопрос">
         <input type="reset" value="Очистить">
         </form>
+    <button onclick="examplTestForm()">Oправить данные</button>
 </div>
-<button onclick="examplTestForm()">отправить данные</button>
+
     <script>
         function examplTestForm()
         {
@@ -146,7 +147,6 @@
             document.getElementById("textFromForm").innerHTML = str;
         }
     </script>
-    <button onclick="setColor()">Сменить цвет</button>
     </main>
     <footer>
        <div class="wrapper footer-flex">

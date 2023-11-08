@@ -44,24 +44,29 @@
         <div class="wrapper main">
         <h1>Фото</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid recusandae dolorem rerum exercitationem. Tenetur, beatae optio ab provident, similique iste tempora libero nemo vitae unde eius repudiandae eaque, nesciunt quasi!</p>
-        <div><button onclick="setWidht()">100px</button></div>
-        <div><button onclick="setWidht_2()">200px</button></div>
-        <div><button onclick="setWidht_3()">300px</button></div>
-        <div>
+        <div class="form_flex">
+            <form action="" method="get">
             <div>Выбирете размер фото</div>
-            <label for="c_100">
-            <input type="radio" name="com_tion" id="c_100">100</label>
+            <label for="100px">
+            <input type="radio" name="width_fot" id="100px" value="100px">100</label>
             <br>
-            <label for="c_200">
-            <input type="radio" name="com_tion" id="c_200">200</label>
+            <label for="200px">
+            <input type="radio" name="width_fot" id="200px" value="200px">200</label>
             <br>
-            <label for="c_300">
-            <input type="radio" name="com_tion" id="c_300">300</label>
+            <label for="300px">
+            <input type="radio" name="width_fot" id="300px" value="300px">300</label>
             <br>
+            <div>
+                <label for="textforpicture">Напишите текст</label>
+                <textarea id="foto" cols="15"></textarea>
+            </div>
+        </form>
+        <button onclick="TestFoto()">Выполнить</button>
         </div>
+
     <article>
             <div>
-                <p>Сьюзя первый деть</p>
+                <p id="name_foto">Сьюзя первый деть</p>
                 <img src="imege/syzan.jpg" alt="Сьюзя" width="200" id = "foto_1">
             </div>
             <div>
@@ -85,7 +90,25 @@
                 <img src="imege/cats.jpg" alt="Кицык" width="200">
             </div>
         </article>
+        <div><button onclick="setWidht()">100px</button></div>
+        <div><button onclick="setWidht_2()">200px</button></div>
+        <div><button onclick="setWidht_3()">300px</button></div>
     </div>
+    <script>
+        function TestFoto()
+        {
+            let af = document.forms[0].foto.value;
+                let width_fot = document.forms[0].width_fot;
+                for(i=0; i < width_fot.length; i++)
+                {
+                    if (width_fot[i].checked)
+                    {
+                        document.getElementById("foto_1").style.width = width_fot[i].value;
+                    }
+                }
+                document.getElementById("name_foto").innerHTML = af;
+        }
+    </script>
     </main>
     
     <footer>
