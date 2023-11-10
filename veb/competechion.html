@@ -9,6 +9,7 @@
 <body>
     <header>
         <div class="wrapper">
+            <button onclick="toggleTheme()">Сменить тему</button>
         <h2>
             Веб-технологии
         </h2>
@@ -31,8 +32,37 @@
         <h1>Компентенции</h1>
             <div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid recusandae dolorem rerum exercitationem. Tenetur, beatae optio ab provident, similique iste tempora libero nemo vitae unde eius repudiandae eaque, nesciunt quasi!</p>
+            <div class="form_flex" id="div">
+                <form action="" method="get">
+                    <label for="textforpicture">Напишите текст</label>
+                    <textarea id= "area" cols="20"></textarea>
+                </div>
+            </form>
+            <div>
+                <input type="text" id="inputText">
+                <button onclick="createDiv()">Создать div</button>
+            </div>
             </div>
         </div>
+        </div>
+        <script>
+            function toggleTheme() 
+            {
+              document.body.classList.toggle("dark-theme");
+              document.main.classList.toggle("dark-theme");
+            }
+            function createDiv() {
+            var inputText = document.getElementById('inputText').value;
+            var newDiv = document.createElement('div');
+            newDiv.innerHTML = inputText + ' <button onclick="removeDiv(this)">Удалить</button>';
+            document.body.appendChild(newDiv);
+        }
+
+        function removeDiv(element) {
+            var divToRemove = element.parentNode;
+            document.body.removeChild(divToRemove);
+        }
+        </script>
     </main>
    
     <footer>
